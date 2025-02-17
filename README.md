@@ -2,13 +2,13 @@
 
 # Project Overview
 
-This project is an automated end-to-end testing suite using Playwright and JavaScript. It is designed to test the login functionality of a web application, ensuring both successful and unsuccessful login attempts are handled correctly.
+This project is an automated end-to-end testing suite using Playwright and JavaScript. It is designed to test various functionalities of a web application, ensuring that both successful and unsuccessful attempts are handled correctly.
 
 The framework follows best practices such as:
 
 - **Page Object Model (POM)** for better maintainability.
-- **Parameterized tests** to test different login scenarios.
-- **Assertions** to verify correct behavior after login attempts.
+- **Parameterized tests** to test different scenarios.
+- **Assertions** to verify correct behavior after attempts.
 - **Reports** for test execution results.
 
 # Tech Stack
@@ -19,28 +19,11 @@ The framework follows best practices such as:
 
 - **VS Code** for development.
 
-# Project Structure
-
-/playwright <br>
-│── pages/ # Page Object Model classes<br>
-│ ├── LoginPage.js # Login page actions and locators<br>
-│<br>
-│── tests/ # Test cases<br>
-│ ├── login.spec.js # Login test scenarios<br>
-│<br>
-│── utils/ # Utility functions (if needed)<br>
-│<br>
-│── playwright-report/ # Test execution reports<br>
-│── test-results/ # Test run results<br>
-│── playwright.config.js # Playwright configuration file<br>
-│── package.json # Project dependencies<br>
-│── README.md # Documentation<br>
-
 # Setup & Installation
 
 - **Clone the Repository**
 
-`git clone https://github.com/your-username/playwright-automation.git`
+`git clone https://github.com/your-username/playwright-automation.git`<br>
 `cd playwright-automation`
 
 - **Install Dependencies**
